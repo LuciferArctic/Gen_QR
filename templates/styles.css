@@ -1,0 +1,15 @@
+body {
+    background-color: #000000;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.btn-block {
+    margin-top: 20px;
+}
