@@ -1,0 +1,20 @@
+<html>
+    <body>
+        <h1>QR Code Generator</h1>
+
+        <h1>Generate Dynamic QR Code</h1>
+    <form action="/generate" method="post" enctype="multipart/form-data">
+      <label for="data">Enter URL or Data:</label>
+      <input type="text" id="data" name="data" required><br><br>
+      <label for="color">QR Code Color:</label>
+      <input type="color" id="color" name="color" value="#000000"><br><br>
+      <label for="bg_color">Background Color:</label>
+      <input type="color" id="bg_color" name="bg_color" value="#ffffff"><br><br>
+      <label for="logo">Upload Logo (optional):</label>
+      <input type="file" id="logo" name="logo" accept="image/*"><br><br>
+      <label for="size">QR Code Size:</label>
+      <input type="number" id="size" name="size" value="10" min="1" max="40"><br><br>
+      <button type="submit">Generate QR Code</button>
+    </form>
+    </body>
+</html>
